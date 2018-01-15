@@ -168,6 +168,8 @@ return [
          * Package Service Providers...
          */
 
+        'Tmdb\Laravel\TmdbServiceProvider',
+
         /*
          * Application Service Providers...
          */

@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/movie/{movie}', "MovieController@show");
+Route::get('/', "MovieController@show");
+Route::get('/film/{id}', "Moviecontroller@info");

@@ -16,3 +16,7 @@ use Illuminate\Foundation\Inspiring;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
+
+Artisan::command('update', function () {
+    DB::insert('INSERT INTO movies (ft_link, titel, jaar, regisseur, `cast`, genre, land, cover, duur, synopsis, imdb_rating, starttijd, eindtijd, zender) VALUES ()');
+});
